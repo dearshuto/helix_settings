@@ -1,0 +1,11 @@
+theme = "shikama"
+
+[lsp]
+display-messages = true
+
+[keys.normal]
+"C-c" = "normal_mode"
+"esc" = "toggle_comments"
+
+[keys.insert]
+"C-c" = "normal_mode"
