@@ -9,3 +9,4 @@ display-messages = true
 
 [keys.insert]
 "C-c" = "normal_mode"
+"A-a" = "code_action"
