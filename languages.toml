@@ -197,7 +197,7 @@ shebangs = ["ruby"]
 roots = []
 comment-token = "#"
 
-language-server = { command = "solargraph", args = ["stdio"] }
+# language-server = { command = "/usr/local/bin/solargraph", args = ["stdio"] }
 indent = { tab-width = 2, unit = "  " }
 
 [[language]]
