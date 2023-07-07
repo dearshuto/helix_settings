@@ -4,15 +4,21 @@ theme = "shikama"
 scroll-lines = 1
 completion-trigger-len = 1
 
-[lsp]
-display-messages = true
-
 [keys.normal]
 "C-c" = "normal_mode"
 "C-a" = "goto_line_start"
 "C-e" = "goto_line_end"
-"esc" = "toggle_comments"
+"C-/" = "toggle_comments"
+"C-p" = "goto_window_top"
+"C-n" = "goto_window_bottom"
+"C-d" = "delete_char_forward"
 
 [keys.insert]
 "C-c" = "normal_mode"
-"A-a" = "code_action"
+"C-." = "code_action"
+"C-a" = "goto_line_start"
+"C-e" = "goto_line_end"
+"C-/" = "toggle_comments"
+
+[keys.selection]
+"C-c" = "copy_selection_on_next_line"
