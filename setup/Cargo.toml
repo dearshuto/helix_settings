@@ -1,0 +1,6 @@
+[package]
+name = "helix-setup"
+version = "0.0.1"
+
+[build-dependencies]
+helix-loader = { git = "https://github.com/helix-editor/helix.git", branch = "master" }
