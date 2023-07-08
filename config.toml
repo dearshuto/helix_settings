@@ -4,6 +4,10 @@ theme = "shikama"
 scroll-lines = 1
 completion-trigger-len = 1
 
+[editor.cursor-shape]
+insert = "bar"
+normal = "bar"
+select = "underline"
 
 [keys.normal]
 "C-c" = "normal_mode"
