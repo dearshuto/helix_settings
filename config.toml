@@ -4,8 +4,6 @@ theme = "shikama"
 scroll-lines = 1
 completion-trigger-len = 1
 
-[lsp]
-display-messages = true
 
 [keys.normal]
 "C-c" = "normal_mode"
