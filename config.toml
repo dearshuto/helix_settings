@@ -32,3 +32,14 @@ select = "underline"
 "C-b" = "move_char_left"
 "C-n" = "move_line_down"
 "C-p" = "move_line_up"
+
+[keys.select]
+"C-c" = "normal_mode"
+
+# カーソル移動
+"C-e" = "goto_line_end"
+"C-a" = "goto_line_start"
+"C-f" = "move_char_right"
+"C-b" = "move_char_left"
+"C-n" = "move_line_down"
+"C-p" = "move_line_up"
