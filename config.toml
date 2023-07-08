@@ -7,10 +7,24 @@ completion-trigger-len = 1
 
 [keys.normal]
 "C-c" = "normal_mode"
-"C-a" = "goto_line_start"
+"esc" = "normal_mode"
+
+# カーソル移動
 "C-e" = "goto_line_end"
-"esc" = "toggle_comments"
+"C-a" = "goto_line_start"
+"C-f" = "move_char_right"
+"C-b" = "move_char_left"
+"C-n" = "move_line_down"
+"C-p" = "move_line_up"
 
 [keys.insert]
 "C-c" = "normal_mode"
 "A-a" = "code_action"
+
+# カーソル移動
+"C-e" = "goto_line_end"
+"C-a" = "goto_line_start"
+"C-f" = "move_char_right"
+"C-b" = "move_char_left"
+"C-n" = "move_line_down"
+"C-p" = "move_line_up"
