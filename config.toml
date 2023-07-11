@@ -12,9 +12,10 @@ select = "underline"
 [keys.normal]
 "C-c" = "normal_mode"
 "esc" = "normal_mode"
+"C-l" = ["goto_line_start", "kill_to_line_end"]
 
 # カーソル移動
-"C-e" = "goto_line_end"
+"C-e" = ["goto_line_end", "move_char_right"]
 "C-a" = "goto_line_start"
 "C-f" = "move_char_right"
 "C-b" = "move_char_left"
@@ -23,10 +24,11 @@ select = "underline"
 
 [keys.insert]
 "C-c" = "normal_mode"
+"C-l" = ["goto_line_start", "kill_to_line_end"]
 "A-a" = "code_action"
 
 # カーソル移動
-"C-e" = "goto_line_end"
+"C-e" = ["goto_line_end", "move_char_right"]
 "C-a" = "goto_line_start"
 "C-f" = "move_char_right"
 "C-b" = "move_char_left"
@@ -37,7 +39,7 @@ select = "underline"
 "C-c" = "normal_mode"
 
 # カーソル移動
-"C-e" = "goto_line_end"
+"C-e" = ["goto_line_end", "move_char_right"]
 "C-a" = "goto_line_start"
 "C-f" = "move_char_right"
 "C-b" = "move_char_left"
