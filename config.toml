@@ -10,6 +10,8 @@ normal = "bar"
 select = "underline"
 
 [keys.normal]
+";" = "toggle_comments"
+
 "C-c" = "normal_mode"
 "esc" = "normal_mode"
 
@@ -28,7 +30,6 @@ select = "underline"
 
 [keys.insert]
 "C-c" = "normal_mode"
-"C-l" = ["goto_line_start", "kill_to_line_end"]
 "A-a" = "code_action"
 
 # コピペ
@@ -46,6 +47,9 @@ select = "underline"
 
 [keys.select]
 "C-c" = "normal_mode"
+
+# コメントアウト
+";" = "toggle_comments"
 
 # コピペ
 "C-l" = ["goto_line_start", "kill_to_line_end"]
