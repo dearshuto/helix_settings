@@ -63,3 +63,6 @@ select = "underline"
 "C-b" = "move_char_left"
 "C-n" = "move_line_down"
 "C-p" = "move_line_up"
+
+# カット
+"C-w" = ["yank_to_clipboard", "yank", "delete_selection", "insert_mode"]
