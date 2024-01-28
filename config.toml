@@ -29,7 +29,7 @@ select = "underline"
 "C-p" = "move_line_up"
 # ページ単位で移動
 "C-v" = "page_down"
-"S-v" = "page_up"
+"C-S-v" = "page_up"
 
 [keys.insert]
 "C-c" = "normal_mode"
@@ -49,7 +49,7 @@ select = "underline"
 "C-p" = "move_line_up"
 # ページ単位で移動
 "C-v" = "page_down"
-"S-v" = "page_up"
+"C-S-v" = "page_up"
 
 [keys.select]
 "C-c" = "normal_mode"
