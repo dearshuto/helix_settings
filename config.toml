@@ -6,7 +6,7 @@ completion-trigger-len = 1
 
 [editor.cursor-shape]
 insert = "bar"
-normal = "bar"
+normal = "block"
 select = "underline"
 
 [keys.normal]
