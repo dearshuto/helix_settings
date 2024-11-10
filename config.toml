@@ -9,6 +9,9 @@ insert = "bar"
 normal = "block"
 select = "underline"
 
+[editor.inline-diagnostics]
+cursor-line = "warning"
+
 [keys.normal]
 ";" = "toggle_comments"
 
