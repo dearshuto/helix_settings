@@ -1,0 +1,20 @@
+# GLSL
+[[language]]
+name = "glsl"
+file-types = ["glsl", "vs", "ps"]
+auto-format = true
+language-servers = ["glsl_analyzer"]
+
+[language-server.glsl_analyzer]
+command = "glsl_analyzer"
+
+# TypeScript
+[[language]]
+name = "typescript"
+language-servers = ["deno"]
+auto-format = true
+roots = ["deno.json", "deno.jsonc"]
+
+[language-server.deno]
+command = "deno"
+args = ["lsp"]
