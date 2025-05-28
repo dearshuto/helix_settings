@@ -18,3 +18,14 @@ roots = ["deno.json", "deno.jsonc"]
 [language-server.deno]
 command = "deno"
 args = ["lsp"]
+
+[[language]]
+name = "html"
+language-servers = ["vscode-html-language-server", "superhtml"]
+auto-format = true
+formatter = { command = "superhtml", args = ["fmt", "--stdin"] }
+
+[language-server.superhtml]
+command = "superhtml"
+args = ["lsp"]
+
