@@ -1,7 +1,7 @@
 # Author: Shafkath Shuhan <shafkathshuhannyc@gmail.com>
 
-"namespace" = { fg = "3f444a" }
-"module" = { fg = "#5ad00" }
+"namespace" = { fg = "#3f444a" }
+"module" = { fg = "#05ad00" }
 
 "type" = { fg = "#A6E22E" }
 "type.builtin" = { fg = "#BAFF2E" }
@@ -17,13 +17,13 @@
 "special" = { fg = "keyword" }
 "operator" = { fg = "text" }
 
-"punctuation" = { fg = "text" }
+"punctuation" = { fg = "keyword" }
 "punctuation.delimiter" = { fg = "text" }
 
 "variable" = { fg = "variable" }
 "variable.parameter" = { fg = "#fd971f" }
 "variable.builtin" = { fg = "#ff5FCF" }
-"constant" = { fg = "F8F000" }
+"constant" = { fg = "#F8F000" }
 "constant.builtin" = { fg = "#ae81ff" }
 
 "function" = { fg = "#fedd38" }
@@ -38,6 +38,8 @@
 "string.regexp" = { fg = "regex" }
 "constant.numeric" = { fg = "#aeAAff" }
 "constant.character.escape" = { fg = "#ae81ff" }
+
+"markup.link.url" = { fg = "#aaaaFF" }
 
 "ui.background" = { fg = "text" }
 
