@@ -8,6 +8,13 @@ language-servers = ["glsl_analyzer"]
 [language-server.glsl_analyzer]
 command = "glsl_analyzer"
 
+[language-server.glslls]
+command = "/Users/shuto/develop/github/glsl-language-server/build/glslls"
+args = ["--stdin", "--verbose"]
+
+[language-server.glsl-lsp]
+command = "/Users/shuto/develop/github/glsl-lsp/server/target/release/glsl-lsp"
+
 # TypeScript
 [[language]]
 name = "typescript"
