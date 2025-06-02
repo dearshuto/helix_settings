@@ -1,6 +1,6 @@
 # Author: Shafkath Shuhan <shafkathshuhannyc@gmail.com>
 
-"namespace" = { fg = "#3f444a" }
+"namespace" = { fg = "namespace" }
 "module" = { fg = "#05ad00" }
 
 "type" = { fg = "#A6E22E" }
@@ -10,21 +10,23 @@
 "variable.other.member" = { fg = "variable" }
 
 "keyword" = { fg = "keyword" }
-"keyword.directive" = { fg = "keyword" }
-"keyword.control" = { fg = "keyword" }
+"keyword.directive" = { fg = "#FD9F00" }
+"keyword.control" = { fg = "#FF9D1D" }
 "label" = { fg = "keyword" }
 
 "special" = { fg = "keyword" }
 "operator" = { fg = "text" }
 
-"punctuation" = { fg = "keyword" }
+"punctuation" = { fg = "#FDFDFD" }
 "punctuation.delimiter" = { fg = "text" }
 
 "variable" = { fg = "variable" }
 "variable.parameter" = { fg = "#fd971f" }
 "variable.builtin" = { fg = "#ff5FCF" }
-"constant" = { fg = "#F8F000" }
+# "variable.other.member" = { fg = "#4fa3d8" }
+"constant" = { fg = "#F8F000", numeric = "#000000" }
 "constant.builtin" = { fg = "#ae81ff" }
+# "constant.numeric" = { fg = "orange" }
 
 "function" = { fg = "#fedd38" }
 "function.builtin" = { fg = "fn_declaration" }
@@ -72,8 +74,9 @@
 diagnostic = { modifiers = ["underlined"] }
 
 [palette]
+namespace = "#3ddf5a" 
 type = "#A6E22E"
-keyword = "#F92672"
+keyword = "#F49FD2"
 regex = "#CE9178"
 special = "#C586C0"
 variable = "#4fb3d8"
