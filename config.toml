@@ -1,13 +1,33 @@
 theme = "shikama"
 
 [editor]
+auto-pairs = true
 scroll-lines = 1
 completion-trigger-len = 1
+cursorline = true
+color-modes = true
+bufferline = "multiple"
+end-of-line-diagnostics = "hint"
+rulers = [80]
+trim-trailing-whitespace = true
+
+[editor.lsp]
+auto-document-highlight = true
+display-messages = true
+display-inlay-hints = false
 
 [editor.cursor-shape]
 insert = "bar"
 normal = "block"
 select = "underline"
+
+[editor.file-picker]
+hidden = false
+
+[editor.indent-guides]
+render = true
+character = "╎"
+skip-levels = 1
 
 [editor.inline-diagnostics]
 cursor-line = "warning"
