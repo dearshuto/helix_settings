@@ -53,6 +53,7 @@
 "ui.cursor" = { fg = "cursor", modifiers = ["reversed"] }
 "ui.cursor.primary" = { fg = "cursor", modifiers = ["reversed"] }
 "ui.cursor.match" = { fg = "#888888", modifiers = ["reversed"] }
+"ui.cursorline.primary" = { bg = "widget"}
 
 "ui.selection" = { bg = "#878b91" }
 "ui.selection.primary" = { bg = "#575b61" }
